@@ -405,9 +405,10 @@ const projectSection = {
       description:
         "oculavis SHARE brings technical knowledge in mechanical and plant engineering to any place on earth at any time. Augmented reality workflows for recurring processes on the shop floor or as self-service in customer support enable structured step-by-step instructions with integrated documentation without directly contacting a remote expert.",
       mainChallenges: [ 
-        'Convertion of legacy code base from Objective-C to Swift and UIkit to SwiftUI.',
-        'Working on autolayout with SwiftUI in different orientation.',
-        'improving test covergare along the project with that SwiftUI conversion.',
+        'Convertion of legacy code base from Objective-C to Swift and UIkit/Storyboard to SwiftUI.',
+        'Improving test coverage with that SwiftUI conversion.',
+        'Working on layout with SwiftUI in different orientation.',
+        'Research on AV Foundation, QR Code, Face Pixelation, Speech synthesizer, Regex, Maestro, Rich Notfication etc.',
       ],
     },
     {
