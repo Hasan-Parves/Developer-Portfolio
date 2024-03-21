@@ -26,9 +26,11 @@
 .blog-main-div > * {
   flex: 1;
   margin-bottom: 30px;
+   
 }
 .blog-main-div {
   display: flex;
+  height: 1100px;
 }
 .blog-image-div > img {
   max-width: 100%;
@@ -36,15 +38,15 @@
 }
 .blog-text-div{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
   gap: 32px;
-  height: 1250px; /* Adjust the height value as needed */
-  /* overflow: auto; */
+  height: 1100px; /* Adjust the height value as needed */
+  overflow: auto;
   padding: 20px;
 }
-.grid-item {
-  height: 200px; /* Set a specific height for grid items */
-}
+/* .grid-item {
+  height: 1000px; 
+} */
 
 /* Media Query */
 @media (max-width: 1380px) {
