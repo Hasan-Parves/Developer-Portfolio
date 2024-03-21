@@ -24,7 +24,7 @@ export default function BlogCard({ blog }) {
               {/* <GetImages images ={blog.images} /> */}
               {images.map((image, index) => (
                 <div key={index}>
-                <img src={image} alt={``} style={{ height: '700px', objectFit: 'contain'}} />
+                <img src={image} alt={``} style={{ height: '500px', objectFit: 'contain'}} />
                 </div>
               ))}
             </Carousel>
