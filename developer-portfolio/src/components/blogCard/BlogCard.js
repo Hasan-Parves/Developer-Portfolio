@@ -14,8 +14,7 @@ export default function BlogCard({ blog }) {
   }
 
   const GetBullets = ({ bullets }) => {
-    // return bullets ? bullets.map((item) => <li className="blog-SubTitle">{item}</li>) : null
-    return bullets ? bullets.map((item) => <li className="subTitle">{item}</li>) : null
+    return bullets ? bullets.map((item) => <li className="blog-SubTitle">{item}</li>) : null
   };
 
   const GetImages = ({ images }) => {
