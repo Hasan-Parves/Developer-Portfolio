@@ -39,11 +39,11 @@
   grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
   gap: 32px;
   height: 1250px; /* Adjust the height value as needed */
-  overflow: auto;
+  /* overflow: auto; */
   padding: 20px;
 }
 .grid-item {
-  height: 2000px; /* Set a specific height for grid items */
+  height: 200px; /* Set a specific height for grid items */
 }
 
 /* Media Query */

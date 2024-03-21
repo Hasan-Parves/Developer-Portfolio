@@ -33,7 +33,7 @@ function Header() {
             </li>
           }
           <li>
-            <a href="#blogs">Porjects</a>
+            <a href="#blogs">Projects</a>
           </li>
           <li>
             <a href="#opensource">GitHub</a>
