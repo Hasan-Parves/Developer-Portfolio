@@ -7,7 +7,7 @@ import { Fade } from "react-reveal";
 export default function MainProjetcs() {
   return (
     <Fade bottom duration={1000} distance="20px">
-    <div className="main" id="blogs">
+    <div className="main" id="projects">
       <div className="blog-header">
         <h1 className="blog-header-text">{projectSection.title}</h1>
         <p className="blog-subtitle">{projectSection.subtitle}</p>

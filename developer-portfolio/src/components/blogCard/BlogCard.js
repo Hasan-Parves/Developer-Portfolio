@@ -14,7 +14,8 @@ export default function BlogCard({ blog }) {
   }
 
   const GetBullets = ({ bullets }) => {
-    return bullets ? bullets.map((item) => <li className="blog-SubTitle">{item}</li>) : null
+    // return bullets ? bullets.map((item) => <li className="blog-SubTitle">{item}</li>) : null
+    return bullets ? bullets.map((item) => <li className="subTitle">{item}</li>) : null
   };
 
   const GetImages = ({ images }) => {
@@ -33,8 +34,9 @@ export default function BlogCard({ blog }) {
 
 
   return (
-    //<Fade bottom duration={1000} distance="20px">
-      <div>
+    <Fade bottom duration={1000} distance="20px">
+     
+      <div className="blog-card2">
         <div
           className="blog-container"
           onClick={() => openUrlInNewTab(blog.url)}
@@ -56,7 +58,7 @@ export default function BlogCard({ blog }) {
             </div>
           </a>
         </div>
-      </div>
-    //</Fade>
+        </div>
+    </Fade>
   );
 }

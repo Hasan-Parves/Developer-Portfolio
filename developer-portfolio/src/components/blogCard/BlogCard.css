@@ -1,11 +1,23 @@
+.blog-card2 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  border-radius: 10px;
+  border: 1px solid rgba(211, 211, 211, 0.397);
+}
+
 .blog-container {
+  position: relative;
   border-radius: 10px;
   color: #586069;
   background-color: #fff;
-  box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 36px rgba(0, 0, 0, 0.1); */
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
   /* padding: 2rem; */
   /* cursor: pointer; */
-  height: auto;
+  /* height: auto; */
 }
 
 .blog-title {
@@ -83,7 +95,7 @@
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
-  height: 100%;
+  height: auto;
 }
 
 .blog-details {
