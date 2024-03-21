@@ -40,7 +40,7 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(390px, 1fr));
   gap: 32px;
-  height: 1000px; /* Adjust the height value as needed */
+  height: auto; /* Adjust the height value as needed */
   overflow: auto;
   padding: 20px;
 }
