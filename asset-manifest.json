@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Developer-Portfolio/static/css/main.c32d1d42.chunk.css",
-    "main.js": "/Developer-Portfolio/static/js/main.4fa2399a.chunk.js",
-    "main.js.map": "/Developer-Portfolio/static/js/main.4fa2399a.chunk.js.map",
+    "main.css": "/Developer-Portfolio/static/css/main.74a000e8.chunk.css",
+    "main.js": "/Developer-Portfolio/static/js/main.3d08bf62.chunk.js",
+    "main.js.map": "/Developer-Portfolio/static/js/main.3d08bf62.chunk.js.map",
     "runtime-main.js": "/Developer-Portfolio/static/js/runtime-main.95c34a0d.js",
     "runtime-main.js.map": "/Developer-Portfolio/static/js/runtime-main.95c34a0d.js.map",
     "static/css/2.fe62fa80.chunk.css": "/Developer-Portfolio/static/css/2.fe62fa80.chunk.css",
@@ -15,12 +15,12 @@
     "static/js/4.f0055267.chunk.js": "/Developer-Portfolio/static/js/4.f0055267.chunk.js",
     "static/js/4.f0055267.chunk.js.map": "/Developer-Portfolio/static/js/4.f0055267.chunk.js.map",
     "index.html": "/Developer-Portfolio/index.html",
-    "precache-manifest.515d0d16777f4dd38748a8e393aa9002.js": "/Developer-Portfolio/precache-manifest.515d0d16777f4dd38748a8e393aa9002.js",
+    "precache-manifest.0e1385c275d3e99cffe3e4fa33d562bb.js": "/Developer-Portfolio/precache-manifest.0e1385c275d3e99cffe3e4fa33d562bb.js",
     "service-worker.js": "/Developer-Portfolio/service-worker.js",
     "static/css/2.fe62fa80.chunk.css.map": "/Developer-Portfolio/static/css/2.fe62fa80.chunk.css.map",
     "static/css/3.c508d8b9.chunk.css.map": "/Developer-Portfolio/static/css/3.c508d8b9.chunk.css.map",
     "static/css/4.f0b7a320.chunk.css.map": "/Developer-Portfolio/static/css/4.f0b7a320.chunk.css.map",
-    "static/css/main.c32d1d42.chunk.css.map": "/Developer-Portfolio/static/css/main.c32d1d42.chunk.css.map",
+    "static/css/main.74a000e8.chunk.css.map": "/Developer-Portfolio/static/css/main.74a000e8.chunk.css.map",
     "static/media/index.css": "/Developer-Portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/EOD_Image_1.gif": "/Developer-Portfolio/static/media/EOD_Image_1.036ae661.gif",
     "static/media/EOD_Image_1.png": "/Developer-Portfolio/static/media/EOD_Image_1.a1371626.png",
@@ -75,7 +75,7 @@
     "static/js/runtime-main.95c34a0d.js",
     "static/css/2.fe62fa80.chunk.css",
     "static/js/2.ccc68d7c.chunk.js",
-    "static/css/main.c32d1d42.chunk.css",
-    "static/js/main.4fa2399a.chunk.js"
+    "static/css/main.74a000e8.chunk.css",
+    "static/js/main.3d08bf62.chunk.js"
   ]
 }
