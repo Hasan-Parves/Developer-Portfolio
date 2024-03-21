@@ -2,6 +2,7 @@ import React, { useState, useEffect, lazy, Suspense } from "react";
 import { openSource } from "../../portfolio";
 import Contact from "../contact/Contact";
 import Loading from "../loading/Loading";
+import profileData from './profile.json';
 
 const renderLoader = () => <Loading />;
 const GithubProfileCard = lazy(() =>
@@ -36,24 +37,17 @@ export default function Profile() {
       // };
 
       const getProfileData = () => {
-        fetch("profile.json") // Assuming profile.json is in the same directory as your script
-          .then((result) => {
-            if (result.ok) {
-              return result.json();
-            }
-            console.error(result);
-          })
-          .then((response) => {
-            setProfileFunction(response.data.user);
-          })
-          .catch(function (error) {
-            setProfileFunction("Error");
-            console.log(
-              "Because of this error, contact section has reverted to default"
-            );
-            console.error(error);
-            openSource.showGithubProfile = "false";
-          });
+        try {
+          // Assuming 'profile.json' contains the data in the structure { data: { user: {...} } }
+          setProfileFunction(profileData.data.user);
+        } catch (error) {
+          setProfileFunction("Error");
+          console.log(
+            "Because of this error, contact section has reverted to default"
+          );
+          console.error(error);
+          openSource.showGithubProfile = "false";
+        }
       };
       getProfileData();
     }
