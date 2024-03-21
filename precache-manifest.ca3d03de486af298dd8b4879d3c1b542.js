@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c28a92bb217b6354ce722ea7acff66e3",
+    "revision": "608e2836e86494b68a9a4e3a883197c4",
     "url": "/Developer-Portfolio/index.html"
   },
   {
-    "revision": "417c5e5fa3b4e5a18f2a",
+    "revision": "d8e5aebc76451cd6b880",
     "url": "/Developer-Portfolio/static/css/2.fe62fa80.chunk.css"
   },
   {
-    "revision": "ddc66cb5794621d48227",
+    "revision": "63284cb8b2937b87fb9f",
     "url": "/Developer-Portfolio/static/css/3.c508d8b9.chunk.css"
   },
   {
-    "revision": "8b7d0ad984b35cae5bb9",
+    "revision": "bc716a79fcae6db342ea",
     "url": "/Developer-Portfolio/static/css/4.f0b7a320.chunk.css"
   },
   {
-    "revision": "a5e3b741c7bc4e3faa0e",
+    "revision": "6671c97b8631bb85a177",
     "url": "/Developer-Portfolio/static/css/main.c32d1d42.chunk.css"
   },
   {
-    "revision": "417c5e5fa3b4e5a18f2a",
-    "url": "/Developer-Portfolio/static/js/2.0802feaa.chunk.js"
+    "revision": "d8e5aebc76451cd6b880",
+    "url": "/Developer-Portfolio/static/js/2.3dfdd00d.chunk.js"
   },
   {
-    "revision": "ddc66cb5794621d48227",
-    "url": "/Developer-Portfolio/static/js/3.77e4ff5e.chunk.js"
+    "revision": "63284cb8b2937b87fb9f",
+    "url": "/Developer-Portfolio/static/js/3.26e31eb4.chunk.js"
   },
   {
-    "revision": "8b7d0ad984b35cae5bb9",
-    "url": "/Developer-Portfolio/static/js/4.2e91ff6c.chunk.js"
+    "revision": "bc716a79fcae6db342ea",
+    "url": "/Developer-Portfolio/static/js/4.f0055267.chunk.js"
   },
   {
-    "revision": "a5e3b741c7bc4e3faa0e",
-    "url": "/Developer-Portfolio/static/js/main.9bb6541a.chunk.js"
+    "revision": "6671c97b8631bb85a177",
+    "url": "/Developer-Portfolio/static/js/main.fe747d9b.chunk.js"
   },
   {
-    "revision": "68084e7c6d77f40a28d1",
-    "url": "/Developer-Portfolio/static/js/runtime-main.af2c8242.js"
+    "revision": "bdc1f4de1416f037e34a",
+    "url": "/Developer-Portfolio/static/js/runtime-main.95c34a0d.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
