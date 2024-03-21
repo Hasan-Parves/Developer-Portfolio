@@ -14,8 +14,29 @@ export default function Profile() {
   }
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
+      // const getProfileData = () => {
+      //   fetch("profile.json")
+      //     .then((result) => {
+      //       if (result.ok) {
+      //         return result.json();
+      //       }
+      //       console.error(result);
+      //     })
+      //     .then((response) => {
+      //       setProfileFunction(response.data.user);
+      //     })
+      //     .catch(function (error) {
+      //       setProfileFunction("Error");
+      //       console.log(
+      //         "Because of this error, contact section has reverted to default"
+      //       );
+      //       console.error(error);
+      //       openSource.showGithubProfile = "false";
+      //     });
+      // };
+
       const getProfileData = () => {
-        fetch("profile.json")
+        fetch("profile.json") // Assuming profile.json is in the same directory as your script
           .then((result) => {
             if (result.ok) {
               return result.json();
