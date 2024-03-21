@@ -2,7 +2,7 @@ import React, { useState, useEffect, lazy, Suspense } from "react";
 import { openSource } from "../../portfolio";
 import Contact from "../contact/Contact";
 import Loading from "../loading/Loading";
-import profileData from './profile.json';
+import profileData from '../../profile.json';
 
 const renderLoader = () => <Loading />;
 const GithubProfileCard = lazy(() =>

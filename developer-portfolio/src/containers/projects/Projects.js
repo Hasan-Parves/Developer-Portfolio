@@ -3,6 +3,7 @@ import "./Project.css";
 import Button from "../../components/button/Button";
 import Loading from "../loading/Loading";
 import { socialMediaLinks } from "../../portfolio";
+import profileData from '../../profile.json';
 
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
@@ -13,25 +14,40 @@ export default function Projects() {
   const [repo, setrepo] = useState([]);
 
   useEffect(() => {
-    const getRepoData = () => {
-      fetch("/profile.json")
-        .then((result) => {
-          if (result.ok) {
-            return result.json();
-          }
-          throw result;
-        })
-        .then((response) => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
-        })
-        .catch(function (error) {
-          console.log(error);
-          setrepoFunction("Error");
-          console.log(
-            "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
-          );
-        });
+    // const getRepoData = () => {
+    //   fetch("/profile.json")
+    //     .then((result) => {
+    //       if (result.ok) {
+    //         return result.json();
+    //       }
+    //       throw result;
+    //     })
+    //     .then((response) => {
+    //       setrepoFunction(response.data.user.pinnedItems.edges);
+    //     })
+    //     .catch(function (error) {
+    //       console.log(error);
+    //       setrepoFunction("Error");
+    //       console.log(
+    //         "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
+    //       );
+    //     });
+    // };
+
+    const getProfileData = () => {
+      try {
+        // Assuming 'profile.json' contains the data in the structure { data: { user: {...} } }
+        setrepoFunction(profileData.data.user.pinnedItems.edges);
+      } catch (error) {
+        setrepoFunction("Error");
+        console.log(
+          "Because of this error, contact section has reverted to default"
+        );
+        console.error(error);
+        openSource.showGithubProfile = "false";
+      }
     };
+
     getRepoData();
   }, []);
 
