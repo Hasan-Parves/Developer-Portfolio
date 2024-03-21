@@ -454,7 +454,7 @@ const projectSection = {
           'Product owner for profile management, newsfeed, social connection and coin-account sections.',
           'Implementing various third-party ad-networks libraries to generate revenue.',
           'Delivering a cross-platform advertisement delivery system to create revenue stream',
-          'Integrating a C++ based library to share photos, videos, files like SHAREit successfully',
+          'Integrating a C++ based library to share photos, videos, files like SHAREit successfully.',
           'Analysing user behaviour on Firebase, ensuring specification flawlessness and detecting edge cases.'
       ],
     },

@@ -10,7 +10,7 @@ export default function MainProjetcs() {
     <div className="main" id="blogs">
       <div className="blog-header">
         <h1 className="blog-header-text">{projectSection.title}</h1>
-        <p className="subTitle blog-subtitle">{projectSection.subtitle}</p>
+        <p className="blog-subtitle">{projectSection.subtitle}</p>
       </div>
       <div className="blog-main-div">
         <div className="blog-text-div">
