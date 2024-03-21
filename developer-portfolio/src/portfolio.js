@@ -32,14 +32,17 @@ const skillsSection = {
     "Develop high quality iOS application",
   skills: [
     emoji(
-      "⚡ Implement UI and control flow of the application."
+      "⚡ Implement UI and control flow of the application with latest technology avialable."
     ),
     emoji("⚡ RESTful API parsing JSON/XML with reactive programming like Combine/RxSwift."),
     emoji(
-      "⚡ Follow test driven development, write unit, ui and  automation test before committing anything."
+      "⚡ Follow test driven development, write unit, ui and automation test on the go."
     ),
     emoji(
-      "⚡ Work on agile development"
+      "⚡ Strongly believe collaboration and code review is ultimate key to improvement."
+    ),
+    emoji(
+      "⚡ Improve code quality even the legacy code works."
     ),
   ],
   listSkills: [
@@ -421,9 +424,10 @@ const projectSection = {
       description:
         "e.GO. an independent German manufacturer of innovative electric vehicles and production solutions. An in-house ride sharing app for employee transportation.",
       mainChallenges: [ 
-          'Real time data synchronization',
-          'Location service with pinpoint accuracy.',
-          'Operating map area bounding box drawing and maintain booking services.',
+          'Real time data synchronization.',
+          'Location service with pinpoint accuracy and timings.',
+          'Maintain booking services withing the operating area.',
+          'Bounding box polygon design on the MapKit and proper notification if violated.'
       ],
     },
     {
@@ -446,11 +450,11 @@ const projectSection = {
       description:
         "RingID is a free and fully functional platform which can be used to make voice and video calls. As it is a lightweight package, it can be a great alternative to larger programs such as Skype. This software will support 3G and 2G connections.",
       mainChallenges: [ 
-          'Product owner for profile management, newsfeed, social connection and account sections.',
-          'Implemented more than 5 third-party ad-networks libraries to the application to add a revenue stream.',
-          'Achieved delivering a cross-platform advertisement delivery system to a generate revenue stream',
-          'Integrated a C++ based library into the app to share photos, videos, files like SHAREit successfully',
-          'Analysed user behaviour on Firebase, ensuring specification flawlessness and app behaviour to find anomalies.'
+          'Product owner for profile management, newsfeed, social connection and coin-account sections.',
+          'Implementing various third-party ad-networks libraries to generate revenue.',
+          'Delivering a cross-platform advertisement delivery system to create revenue stream',
+          'Integrating a C++ based library to share photos, videos, files like SHAREit successfully',
+          'Analysing user behaviour on Firebase, ensuring specification flawlessness and detecting edge cases.'
       ],
     },
   ],
