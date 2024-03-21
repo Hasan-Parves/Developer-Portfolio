@@ -30,7 +30,7 @@
 }
 .blog-main-div {
   display: flex;
-  height: 1150px;
+  height: 950px;
 }
 .blog-image-div > img {
   max-width: 100%;
@@ -40,7 +40,7 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(400px, 1fr));
   gap: 32px;
-  height: 1150px; /* Adjust the height value as needed */
+  height: 950px; /* Adjust the height value as needed */
   overflow: auto;
   padding: 20px;
 }
