@@ -30,7 +30,7 @@
 }
 .blog-main-div {
   display: flex;
-  height: 950px;
+  height: 1000px;
 }
 .blog-image-div > img {
   max-width: 100%;
@@ -38,9 +38,9 @@
 }
 .blog-text-div{
   display: grid;
-  grid-template-columns: repeat(3, minmax(400px, 1fr));
+  grid-template-columns: repeat(3, minmax(390px, 1fr));
   gap: 32px;
-  height: 950px; /* Adjust the height value as needed */
+  height: 1000px; /* Adjust the height value as needed */
   overflow: auto;
   padding: 20px;
 }
