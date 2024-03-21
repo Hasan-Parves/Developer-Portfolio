@@ -15,7 +15,7 @@ export default function Profile() {
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
-        fetch("/profile.json")
+        fetch("https://github.com/Hasan-Parves/Developer-Portfolio/blob/main/developer-portfolio/public/profile.json")
           .then((result) => {
             if (result.ok) {
               return result.json();
