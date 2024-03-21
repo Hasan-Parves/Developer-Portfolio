@@ -34,17 +34,17 @@ export default function Projects() {
     //     });
     // };
 
-    const getProfileData = () => {
+    const getRepoData = () => {
       try {
         // Assuming 'profile.json' contains the data in the structure { data: { user: {...} } }
         setrepoFunction(profileData.data.user.pinnedItems.edges);
       } catch (error) {
         setrepoFunction("Error");
+        console.log(error);
         console.log(
-          "Because of this error, contact section has reverted to default"
-        );
-        console.error(error);
-        openSource.showGithubProfile = "false";
+            "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
+          );
+        console.log(error);
       }
     };
 
