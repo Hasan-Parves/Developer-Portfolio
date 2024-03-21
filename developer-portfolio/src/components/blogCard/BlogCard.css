@@ -25,7 +25,7 @@
 }
 
 .blog-SubTitle {
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 200;
   color: #262626;
 }
@@ -42,6 +42,21 @@
   -webkit-box-orient: vertical;
   margin: 0px;
   text-align: justify;
+}
+.blog-sub-title-header {
+  color: #262626;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 14px;
+  margin-top: 32px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  padding: 5px;
 }
 
 .go-corner {

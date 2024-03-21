@@ -46,7 +46,7 @@ export default function BlogCard({ blog }) {
             <div className="blog-details"> 
               <h3 className="blog-title">{blog.title}</h3>
               <p className="small">{blog.description}</p>
-              <p style={{fontWeight: 'bold'}}>Main Challenges</p>
+              <p className="blog-sub-title-header">{"Main Challenges"}</p>
               <ul>
                 <GetBullets bullets ={blog.mainChallenges} />
             </ul>
