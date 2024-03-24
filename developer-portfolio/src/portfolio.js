@@ -34,7 +34,8 @@ const skillsSection = {
     emoji(
       "⚡ Implement UI and control flow of the application with latest technology avialable."
     ),
-    emoji("⚡ Reactive programming(Combine / RxSwift), Third-Party libraries/Cocoa, various script implementation."),
+    emoji("⚡ Reactive programming(Combine / RxSwift), RESTful APIs & JSON/XML Parsing."),
+    emoji("⚡ Third-Party libraries/Cocoa, various script like SwiftLint, SwiftGen implementation."),
     emoji(
       "⚡ Follow test driven development, write unit, ui and automation test on the go."
     ),
