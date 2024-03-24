@@ -8,7 +8,7 @@ const greeting = {
   username: "Hasan Parves",
   title: "Hi all, I'm Hasan",
   subTitle: emoji(
-    "iOS Applications Developer 👨‍💻 | Software Engineer 🤖 ✍️ "
+    "iOS Application Developer 👨‍💻 | Software Engineer 🤖 ✍️ "
   ),
   summary: "Experienced software developer with ten years of iOS development expertise and armed with a master's degree, I aim to carve out a path towards lead engineer position, seeking to leave an indelible mark on the dynamic tech scene in Germany.",
   resumeLink:
@@ -34,7 +34,7 @@ const skillsSection = {
     emoji(
       "⚡ Implement UI and control flow of the application with latest technology avialable."
     ),
-    emoji("⚡ RESTful API parsing JSON/XML with reactive programming like Combine/RxSwift."),
+    emoji("⚡ Reactive programming(Combine / RxSwift), Third-Party libraries/Cocoa, various script implementation."),
     emoji(
       "⚡ Follow test driven development, write unit, ui and automation test on the go."
     ),
